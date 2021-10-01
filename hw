@@ -1,0 +1,42 @@
+using System;
+using System.Collections.Generic;
+					
+namespace Tree
+{
+	public class Program
+	{
+		public static void Main (string[] args )
+		{
+		    // Input
+			Console.Write("Input Total Rose : ");
+			string r = Console.ReadLine();
+			int R = int.Parse(r);
+			Console.Write("Input Total Sun Flower : ");
+			string s = Console.ReadLine();
+			int S = int.Parse(s);
+			int T = R+S;
+			Console.WriteLine("Total Flower : {0}",T);
+			Console.Clear();
+			for (int i =0; i<T; i++)
+			{
+				Console.WriteLine("Input Rose ");
+				Console.WriteLine("--------------");
+				Console.Write("ID : ");
+				String ID = Console.ReadLine();
+				Console.Write("Plant Name : ");
+				String Name = Console.ReadLine();
+				Console.Write("Plant description : ");
+				String Des = Console.ReadLine();
+				Console.Write("Amount : ");
+				String A = Console.ReadLine();
+				Console.Write("Height : ");
+				String H = Console.ReadLine();
+				Console.Write("Circumference : ");
+				String C = Console.ReadLine();
+				Console.Clear();
+			}
+			
+		}
+		 
+	}
+}
